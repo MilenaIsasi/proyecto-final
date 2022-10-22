@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<head>
+  <link rel="stylesheet" href="pedido.css">
+  <title>Realizar Pedido</title>
+</head>
+<!-- TITULO PRINCIPAL -->
+<h1>Realizar un Pedido</h1> 
+
+  <!--DECLARAMOS UN ELEMENTO DIV Q' CONTIENE UN ID  -->
+<div id="form-box">
+<form> <!-- DENTRO DEL ELEMENTO CREO UN FORMULARIO -->
+  <div>
+    <div> <!-- LE DAMOS ESTRUCTURA PARA EL INGRESO DE DATOS  -->
+        <span>Fecha:</span> <input type="date" class="input" id="fecha">
+    </div>
+    
+    <span>Medio de pago:</span> 
+      <select id="medio-pago">
+          <option value="Efectivo">Efectivo</option>
+          <option value="Transferencia">Transferencia Bancaria</option>
+          <option value="Transferencia">Giros</option>
+      </select>
+  </div>
+    <span>Necesitas en cantidad?:</span>
+    <select id="en-cantidad">
+        <option value="Si">SI</option>
+        <option value="No">NO</option> 
+    </select>    
+  <div>
+    <span>Que estas necesitando?</span> <input type="text" id="producto" class="input" placeholder="">
+  </div>
+ 
+  <div>
+    <span>Concepto:</span> <input type="text" id="hora-entrega" class="input" placeholder="¿Para que hora necesitas?">
+  </div>
+  <span>Numero de telefono</span> <input type="text" id="numero-telefono" class="input" placeholder="Nos comunicamos contigo">
+  </div>
+  
+</form>
+</div>
+
+<!-- CREAMOS BOTON P/ REGISTRAR PEDIDO O CANCELAR EL PEDIDO -->
+<div id="button" class="button" onclick="onRegistrarPedido()"><b>Confirmar Pedido</b></div> <br/> <div id="button" class="button" onclick="onRegistrarPedido()"><b>Cancelar Pedido</b></div>
+
+<h3 id=" mensajeImportante">Obs: Los pedidos realizar con Anticipacion (minimo 3 dias antes) </br> Se confirma el pedido con una seña del 50%</h3>
+
+
+
+<script src="pedido.js"></script>

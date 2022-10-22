@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body {
+    background: rgb(224,177,203);
+    background: radial-gradient(circle, rgba(224,177,203,1) 19%, rgba(190,149,196,1) 39%, rgba(159,134,192,1) 73%, rgba(147,125,183,1) 96%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #231942;
+    max-width: 1500px;
+    margin: 50px 100px 50px 100px;
+} 
+
+#tablero{
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr;
+    gap: 5px;
+
+}
+
+#catalogo {
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 23rem;
+    margin-bottom: 1.2rem;
+    text-decoration: none;
+    font-family: 'Great Vibes', cursive;
+    font-size: 200px;
+    font-weight: 50;
+    line-height: 12.5px;
+}
+
+
+.menu-item {
+    margin-top: 1%;
+    height: 2rem;
+    border-radius: 10px;
+    max-width: 100vh;
+    text-align:center;
+    background: #5e548e;
+    color:#231942;
+}
+
+.menu-item:hover {
+    color: #3D3C42;
+    background-color: #9f86c0;
+}
+
+.precio {
+    float: right;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+
+.producto {
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+
+}
+
+.peso{
+    display: flex;
+    margin-left: 18%;
+    margin-top: 0.5%;
+    position: absolute;
+    align-items: center;
+}s
+
+/* 
+Esta clase permite centrar verticalmente los items en el div, tener en cuenta que si aumenta el alto del div contenedor,
+el line-height acá también debería aumentar al mismo valor.
+/* */
+.item {
+    vertical-align: middle;
+    line-height: 1rem; 
+}
+
+
+#lista-menu {
+    margin: auto;
+    width: 70%;
+    font-size: 17px;
+    font-weight: 600;
+    
+ }
+
+img{
+ width: 30vh;
+ border-radius: 4%;
+}
+ 
