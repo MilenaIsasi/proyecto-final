@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    min-height: 100vh;
+    background: rgb(224,177,203);
+    background: radial-gradient(circle, rgba(224,177,203,1) 19%, rgba(190,149,196,1) 39%, rgba(159,134,192,1) 73%, rgba(147,125,183,1) 96%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.titulo {
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 40px;
+    color: #4f517d;
+    margin: 150px;
+    
+}
+
+.subtitulo {
+    margin: 0;
+    color: #ddc4dd;
+    text-shadow: -0px 0px 5px rgb(141, 22, 184);
+    display: inline;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+.sabor { 
+    color: #a997df;
+    margin: 7px 0;
+    font-size: 30px;
+    justify-content: space-between;
+    font-weight: 600;
+    text-shadow: 2px 2px 1px rgba(8, 8, 8, 0.7);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+}
+
+.linea-division {
+    width: 80%;
+    height: 3px;
+    background-color: #4f517d;
+}
+
+/*estilos de carousel*/
+
+.carousel{
+    min-height: 1px;
+    margin-bottom: 150px;
+
+}
+
+.carousel .carousel-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    width: 500px;
+    height: 500px;
+
+}
+.carousel .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 15px;
+ 
+
+}
+
+.carousel .indicators .indicators-item {
+    border-radius: 0%;
+    transform: rotate(45deg);
+    margin: 0 15px;
+    background: #e7c6ff;
+
+}
+
+
+
+.nav{
+    width: 300px;
+
+}
+
+.list{
+    width: 506%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction:unset;
+    cursor: pointer;
+ 
+}
+
+.list_item{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.list_button{
+    color:#f1f1f1;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    text-align: center;
+    background:#e0b1cb;
+    right: -100px;
+
+}
+
+
+.list_item--click{
+    cursor: pointer;
+}
+
+.nav{
+    margin: 40px, 10px, 20px, 10px;
+}
+
+.nav_link{
+    color:#f1f1f1;
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    text-align: center;
+    background: rgb(94,84,142);
+    background: linear-gradient(332deg, rgba(94,84,142,0.6082808123249299) 98%, rgba(147,125,183,0.4654236694677871) 100%);
+    margin: 3px;
+    border: #231942 5px double;
+    right: -100px;
+    border-radius: 5;
+}
+
+.nav_link:hover{
+    background: rgb(255, 255, 255);
+    background: linear-gradient(332deg, rgba(255, 255, 255, 0.255) 0%, rgba(147,125,183,0.8575805322128851) 100%);
+
+}
+
+
+#texto-inicio{
+    text-align: center;
+    
+    font-size: 50px;
+    border-radius: 15px;
+    border-left: 50px;
+    border-right: 50px;
+    font-size: 20px;
+}
+
+#escribinos{
+    background-color: #a997df;
+    color: #4f517d;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+   border-radius: 20px;
+}
+
+h3{
+    font-size: 5px;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 40px;
+    margin: 150px;
+}
+ 
